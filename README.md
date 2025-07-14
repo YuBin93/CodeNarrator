@@ -1,2 +1,14 @@
-# CodeNarrator
-可以输入 AI-Powered GitHub Project Narration Generator。
+📘 CodeNarrator
+> 一键让 AI 理解 GitHub 项目，并生成可视化技术预告片
+> 让每一个普通人都能“一眼看懂技术”，激发全民共创
+> 
+🧠 项目简介
+CodeNarrator 是一个 AI 引擎，用于自动分析 GitHub 项目的代码、文档与历史变更，提取其背后的目标、痛点与解决方案，并生成具有人类叙事逻辑的短视频预告片。
+📌 核心模块
+ * 📥 多源采集器：抓取 README、代码、Issue、Commit 等
+ * 🧠 意图抽取器：识别项目目标与结构，生成结构化JSON
+ * 📜 叙事生成器：将意图结构变为技术剧本脚本
+ * 🎬 多模态规划器：分解为 Sora/Runway 等生成指令
+ * 📽️ 渲染调度器：自动调用工具，输出完整视频
+🚀 使用方式（开发中）
+这是一个基于 React 的前端应用，用于演示 CodeNarrator 的核心流程。
